@@ -1,0 +1,120 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #000000;
+  font-family: Roboto, sans-serif !important;
+  font-size: 15px;
+  margin: 0px;
+  line-height: 24px;
+  min-width: 60rem;
+}
+
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.big {
+  font-size: 20px;
+  font-weight: inherit;
+}
+
+a {
+  color: #33a9c7;
+  text-decoration: none;
+  transition: color 100ms ease-in-out;
+}
+
+a:hover {
+  color: #2085ab;
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  overflow: hidden;
+  padding: 4rem 6rem 24rem 6rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  height: 100%;
+  justify-content: center;
+}
+
+.content .top {
+  margin-top: 8rem;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.row > * {
+  box-sizing: border-box;
+}
+
+img.logo {
+  width: 350px;
+}
+
+.button {
+  background-color: #33a9c7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  outline: none;
+  padding: 0.75em 1.5em;
+  position: relative;
+  text-decoration: none;
+  transition: 100ms ease-in-out;
+  white-space: nowrap;
+}
+
+button:hover {
+  background-color: #2085ab;
+}
+
+.button a {
+  color: inherit !important;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #2085ab;
+  border: none;
+}

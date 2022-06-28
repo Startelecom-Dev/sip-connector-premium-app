@@ -1,0 +1,12 @@
+<callCenter>
+  <section sortOrder="0" name="reqGeneralInfo" label="General Info">
+    <item sortOrder="0" name="reqInternalName" label="Internal Name">StarTelCallCenter</item>
+    <item sortOrder="1" name="reqDisplayName" label="Display Name">Startelecom for Salesforce Lightning</item>
+    <item sortOrder="2" name="reqDescription" label="Description">Startelecom for Salesforce Lightning</item>
+    <item sortOrder="3" name="reqAdapterUrl" label="Adapter URL">https://kind-shannon-68dbab.netlify.app</item>
+    <item sortOrder="4" name="reqUseApi" label="Use Api">true</item>
+    <item sortOrder="5" name="reqSalesforceCompatibilityMode" label="Salesforce Compatibility Mode">Classic_and_Lightning</item>
+    <item sortOrder="6" name="reqSoftphoneHeight" label="Height">535</item>
+    <item sortOrder="7" name="reqSoftphoneWidth" label="Width">340</item>
+  </section>
+</callCenter>
