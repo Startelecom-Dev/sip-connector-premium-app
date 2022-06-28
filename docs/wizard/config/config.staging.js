@@ -3,7 +3,7 @@ export default {
   clientID: "70d02660-aae2-4601-a81d-5cdcde00dec6",
 
   // wizardUriBase: "http://localhost:8091/wizard/",
-  wizardUriBase: "https://legendary-swan-ffc962.netlify.app/wizard/",
+  wizardUriBase: "https://willowy-croissant-fcd488.netlify.app/wizard/",
   // wizardUriBase: 'https://mypurecloud.github.io/purecloud-premium-app/wizard/',
 
   // The actual URL of the landing page of your web app or your web site (when wizard has been run).
