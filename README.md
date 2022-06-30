@@ -1,6 +1,14 @@
-This projects contains a sample premium app and an automated on-boarding flow for setting up the app in a Genesys Cloud organization.
+# Startelecom SIP Connector
+### Genesys Premium App
 
-## Resources
+To run code locally run:
+```
+npm run start
+```
+Open https://localhost:8091/docs/wizard/index.html
 
-* [Premium Application Wizard Step by Step Guide](https://developer.genesys.cloud/appfoundry/premium-app-wizard/ "Opens the premium app guide in Genesys Developer Center")
-* [AppFoundry Overview](https://developer.genesys.cloud/appfoundry/ "Opens the AppFoundry documentation in Genesys Developer Center")
+To prepare package to deployment run:
+```
+npm run start
+```
+Deployment files are preapred in `dist/wizard` directory.
