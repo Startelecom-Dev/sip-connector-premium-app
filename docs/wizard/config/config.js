@@ -275,4 +275,4 @@ export default {
     audiohook: ["integrations"],
     "event-bridge": ["integrations"],
   },
-};
+}

@@ -15,7 +15,7 @@ const css = require('css');
 const md5 = require('md5');
 
 // File paths
-const configFilePath = path.join(__dirname, 'docs/wizard/config/config.js')
+const configFilePath = path.join(__dirname, 'docs/wizard/config/config.prod.js')
 const languageDirPath = path.join(__dirname, 'docs/wizard/assets/languages')
 const wizardPath = path.join(__dirname, 'docs/wizard')
 

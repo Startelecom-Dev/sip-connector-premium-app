@@ -1,5 +1,14 @@
-There are two parts to this project.
+#Startelecom SIP Connector
+###Genesys Premium App
 
-1. The installation wizard which is found in the folder 'wizard'. This is the URL that is set in the Client App configuration
+To run code locally run:
+```
+npm run start
+```
+Open https://localhost:8091/docs/wizard/index.html
 
-2. The Premium App itself where the wizard will redirect after installation or if it determines that the app is already installed. Found in the folder 'premium-app-sample'.
+To prepare package to deployment run:
+```
+npm run start
+```
+Deployment files are preapred in `dist/wizard` directory.
