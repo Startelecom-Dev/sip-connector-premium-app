@@ -24,7 +24,7 @@ fse.copySync(src, dist, { overwrite: true }, function (err) {
 });
 
 fse.copySync(
-  `${src}/wizard/config/config.staging.js`,
+  `${src}/wizard/config/config.prod.js`,
   `${dist}/wizard/config/config.js`,
   { overwrite: true },
   function (err) {
