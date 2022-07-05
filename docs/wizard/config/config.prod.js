@@ -1,7 +1,7 @@
 export default {
   clientID: "70d02660-aae2-4601-a81d-5cdcde00dec6",
-  wizardUriBase: "https://sipconn.gcapps.startelecom.ca/install/",
-  redirectURLOnWizardCompleted: "https://sipconn.gcapps.startelecom.ca",
+  wizardUriBase: "https://sipconn.startelecom.ca/install/",
+  redirectURLOnWizardCompleted: "https://sipconn.startelecom.ca",
   redirectURLWithParams: false,
   premiumAppIntegrationTypeId: "premium-app-example",
   premiumAppViewPermission: "integration:examplePremiumApp:view",
@@ -43,7 +43,7 @@ export default {
     "app-instance": [
       {
         name: "SIP Connector",
-        url: "https://sipconn.gcapps.startelecom.ca?language={{pcLangTag}}&environment={{pcEnvironment}}",
+        url: "https://sipconn.startelecom.ca?language={{pcLangTag}}&environment={{pcEnvironment}}",
         type: "standalone",
         groups: [],
       },
