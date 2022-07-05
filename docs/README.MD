@@ -9,6 +9,6 @@ Open https://localhost:8091/docs/wizard/index.html
 
 To prepare package to deployment run:
 ```
-npm run start
+npm run build-prod
 ```
 Deployment files are preapred in `dist/wizard` directory.
