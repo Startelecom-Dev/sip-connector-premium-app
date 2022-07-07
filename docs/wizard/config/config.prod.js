@@ -52,7 +52,7 @@ export default {
       {
         name: "SIP Connector OAuth Client",
         description: "Startelecom SIP Connector OAuth Client for API access.",
-        roles: ["Startelecom SIP Admin Role"],
+        roles: ["SIP Admin Role"],
         authorizedGrantType: "CLIENT_CREDENTIALS",
         finally: function (installedData) {
           return new Promise((resolve, reject) => {
