@@ -21,11 +21,11 @@ export default {
   enableDynamicInstallSummary: true,
   displaySummarySimplifiedData: true,
   enableUninstall: false,
-  prefix: "Startelecom ",
+  prefix: "Startelecom SIP ",
   provisioningInfo: {
     role: [
       {
-        name: "SIP Admin Role",
+        name: "Admin Role",
         description:
           "Generated role for access to the Startelecom SIP Connector.",
         permissionPolicies: [
@@ -42,7 +42,7 @@ export default {
     ],
     "app-instance": [
       {
-        name: "SIP Connector",
+        name: "Connector",
         url: "https://sipconn.startelecom.ca?language={{pcLangTag}}&environment={{pcEnvironment}}",
         type: "standalone",
         groups: [],
@@ -50,9 +50,9 @@ export default {
     ],
     "oauth-client": [
       {
-        name: "SIP Connector OAuth Client",
+        name: "Connector OAuth Client",
         description: "Startelecom SIP Connector OAuth Client for API access.",
-        roles: ["SIP Admin Role"],
+        roles: ["Admin Role"],
         authorizedGrantType: "CLIENT_CREDENTIALS",
         finally: function (installedData) {
           return new Promise((resolve, reject) => {

@@ -74,13 +74,13 @@ export default {
 
   // To be added to names of Genesys Cloud objects created by the wizard
   // prefix: 'PREMIUM_EXAMPLE_',
-  prefix: "Startelecom ",
+  prefix: "Startelecom SIP ",
 
   // These are the Genesys Cloud items that will be added and provisioned by the wizard
   provisioningInfo: {
     role: [
       {
-        name: "SIP Admin Role",
+        name: "Admin Role",
         description:
           "Generated role for access to the Startelecom SIP Connector.",
         permissionPolicies: [
@@ -105,7 +105,7 @@ export default {
         ],*/
     "app-instance": [
       {
-        name: "SIP Connector",
+        name: "Connector",
         // 'url': 'https://genesysappfoundry.github.io/partner-enablement-tools/index.html?language={{pcLangTag}}&environment={{pcEnvironment}}',
         // url: "https://legendary-swan-ffc962.netlify.app/stsc/index.html?language={{pcLangTag}}&environment={{pcEnvironment}}",
         // url: "http://localhost:8091/stsc/index.html?language={{pcLangTag}}&environment={{pcEnvironment}}",
@@ -117,10 +117,10 @@ export default {
     ],
     "oauth-client": [
       {
-        name: "SIP Connector OAuth Client",
+        name: "Connector OAuth Client",
         description:
           "Startelecom SIP Connector OAuth Client for API access.",
-        roles: ["SIP Admin Role"],
+        roles: ["Admin Role"],
         authorizedGrantType: "CLIENT_CREDENTIALS",
 
         /**
