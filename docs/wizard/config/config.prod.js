@@ -1,5 +1,5 @@
 export default {
-  clientID: "70d02660-aae2-4601-a81d-5cdcde00dec6",
+  clientID: "8137d748-c57d-4caa-9d5c-b94f67565a9d",
   wizardUriBase: "https://sipconn.startelecom.ca/install/",
   redirectURLOnWizardCompleted: "https://sipconn.startelecom.ca",
   redirectURLWithParams: false,
